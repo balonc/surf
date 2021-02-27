@@ -1,0 +1,4 @@
+surf
+webext-surf
+*.o
+*.so
