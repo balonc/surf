@@ -199,3 +199,8 @@ static Button buttons[] = {
 	{ OnAny,        0,              9,      clicknavigate,  { .i = +1 },    1 },
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
+
+static SearchEngine searchengines[] = {
+  { "g",   "http://www.google.es/search?q=%s"   },
+  { "d",   "https://duckduckgo.com/?q=%s" },
+};
