@@ -201,6 +201,8 @@ static Button buttons[] = {
 };
 
 static SearchEngine searchengines[] = {
-  { "g",   "http://www.google.es/search?q=%s"   },
-  { "d",   "https://duckduckgo.com/?q=%s" },
+  { "g", "http://www.google.es/search?q=%s" },
+  { "d", "https://duckduckgo.com/?q=%s" },
+  { "wikidex", "https://www.wikidex.net/index.php?title=Especial%3ABuscar&search=%s" },
+  { "filmaffinity", "https://www.filmaffinity.com/es/search.php?stext=%s"}
 };
